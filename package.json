@@ -1,0 +1,15 @@
+{
+    "name": "integrador",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --watch --error-css ./src/styles.sass:./public/styles/styles.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^9.0.0"
+    }
+}

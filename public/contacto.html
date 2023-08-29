@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles/styles.css" />
+    </head>
+    <body>
+        <header>
+            <section>
+                <article>
+                    <a href="nosotros.html">
+                        <img
+                            src="./images/Screenshot 2023-08-28 at 01-56-49 Pamela Bilbao (@pamelabilbao) • Instagram photos and videos.png"
+                            alt="imagen"
+                            width="100px"
+                            height="50px"
+                        />
+                    </a>
+
+                    <h1>Pamela Bilbao Estetica</h1>
+                    <a href="javascript:void(0);" onclick="openMenu()" id="menu"
+                        ><i class="fa fa-bars"></i
+                    ></a>
+                    <ul id="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="alta.html">Alta</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    </ul>
+                </article>
+            </section>
+        </header>
+        <main class="main">
+            <section class="section">
+                <article class="forms">
+                    <form action="" id="forms-contact">
+                        <div class="productName-contacto">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" required />
+                        </div>
+                        <div class="email">
+                            <label for="name">Email</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                        <div class="productDescription-contacto">
+                            <label for="name">Descripción del mensaje</label>
+                            <textarea
+                                name="description"
+                                id="description"
+                                cols="60"
+                                rows="10"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <div class="productButton">
+                            <input
+                                id="productButton"
+                                type="submit"
+                                value="Finalizado"
+                            />
+                        </div>
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                dolor fugit praesentium, itaque sequi fuga ea temporibus nulla
+                dolores, iusto repudiandae qui reprehenderit sapiente incidunt
+                eaque libero accusamus impedit distinctio.
+            </p>
+            <a href="contacto.html">Contactanos!</a>
+        </footer>
+        <script src="https://kit.fontawesome.com/8babc979b9.js"></script>
+        <script src="./js/scripts.js"></script>
+    </body>
+</html>
